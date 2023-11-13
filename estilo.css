@@ -1,0 +1,8 @@
+/*  Pagina de estilo del index  */
+
+/*  Header  */
+#foto_header {
+    height: 500px;
+    width: 90%;
+    overflow: hidden;
+}
