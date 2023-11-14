@@ -3,12 +3,12 @@
 /* ------------ Tipografias ------------ */
 @font-face {
     font-family: oswald; /* la tipografia del nav */
-    src: url(./fuentes/Oswald-Regular.ttf);
+    src: url(../fuentes/Oswald-Regular.ttf);
 }
 
 /* ------------ Fondo ------------ */
 body {
-    background-image: url(./fotos/fondo_negro.jpg); /* El fondo que dejandolo solo ya queda bien */
+    background-image: url(../fotos/fondo_negro.jpg); /* El fondo que dejandolo solo ya queda bien */
 }
 
 /* ------------ Header ------------ */
