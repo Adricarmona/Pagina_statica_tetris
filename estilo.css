@@ -40,9 +40,10 @@ ul {
     width: 90vh;
     height: 9.5vh;
     border-radius: 60px;
-    display: flex; /* Y otra vez hacemos lo de arriba para centrarlo pero en el propio nav */
-    justify-content: center; 
     border: 1px solid white; /* Para el borde blanco de el nav */
+    display: flex; 
+    justify-content: center; /* Y otra vez hacemos lo de arriba para centrarlo pero en el propio nav */
+    
 }
 
 nav li {
@@ -66,30 +67,44 @@ li a {
 }
 
     /* colores de el nav al pasar por encima por encima */
-#inicio:hover {
-    background-color: rgb(0, 134, 11);
-}
+    #inicio:hover {
+        background-color: rgb(0, 134, 11);
+    }
 
-#tipos_de_tetris:hover {
-    background-color: rgb(112, 0, 177);
-}
+    #tipos_de_tetris:hover {
+        background-color: rgb(1, 228, 228);
+    }
 
-#contactos:hover {
-    background-color: orange;
-}
+    #contactos:hover {
+        background-color: rgb(255, 0, 0);
+    }
 
 /* ------------ Contenido ------------ */
+#contenidos { /* este apartado esta para centrar el rectangulo de contenidos*/
+    display: flex; /* Centro todos los contenidos con estos dos*/
+    justify-content: center; 
+    margin-bottom: 2vh;
+}
+
 #contenido {
     color: white;
-    width: 100vh;
+    width: 95vh;
     background-color: rgba(0, 0, 0, 0.863);
     border: 1px solid white;
     border-radius: 4vh;
-    text-align: center;    
+    text-align: center;   
 }
 
-#tpsin {
-    text-align: center; /* para centrar el tspin*/
+#tspin {
+    padding: 2vh 5vh;
+}
+
+#tspin p {
+    text-align: left;
+}
+
+#tspin img {
+    text-align: right;
 }
 
 /* ------------ Footer ------------ */
