@@ -92,19 +92,19 @@ li a {
     background-color: rgba(0, 0, 0, 0.863);
     border: 1px solid white;
     border-radius: 4vh;
-    text-align: center;   
+    text-align: center;  
+    font-size: 2vh; 
 }
 
 #tspin {
     padding: 2vh 5vh;
 }
-
-#tspin p {
-    text-align: left;
+#tetris_video {
+padding: 2vh 5vh;
 }
 
-#tspin img {
-    text-align: right;
+#tetris_video video {
+    width: 60vh;
 }
 
 /* ------------ Footer ------------ */
