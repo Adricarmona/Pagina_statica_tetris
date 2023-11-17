@@ -1,0 +1,115 @@
+/* ------------ Pagina de estilo del index ------------ */
+
+/* ------------ Tipografias ------------ */
+@font-face {
+    font-family: oswald; /* la tipografia del nav */
+    src: url(../fuentes/Oswald-Regular.ttf);
+}
+
+/* ------------ Fondo ------------ */
+body {
+    background-image: url(../imagenes/fondo_negro.jpg); /* El fondo que dejandolo solo ya queda bien */
+}
+
+/* ------------ Header ------------ */
+#foto_header{
+    margin: auto;
+    display: flex; /* para dejarlo flexible */
+    justify-content: center; /* Para centrar la foto */
+}
+
+#foto_header img {
+    background-color: rgba(0, 0, 0, 0.863);
+    width: 95vh;
+    height: 25vh;
+    border-radius: 60px;
+    border: 1px solid white; /* Para el borde blanco de la foto */
+}
+
+/* ------------ NAV ------------ */
+nav {
+    display: flex; /* Volvemos a hacer lo de arriba para centrar la barra de navegacion */
+    justify-content: center; 
+    font-family: oswald;
+    font-size: 2vb;
+    color: white;
+}
+
+ul {
+    background-color: rgba(0, 0, 0, 0.863);
+    width: 90vh;
+    height: 9.5vh;
+    border-radius: 60px;
+    display: flex; /* Y otra vez hacemos lo de arriba para centrarlo pero en el propio nav */
+    justify-content: center; 
+    border: 1px solid white; /* Para el borde blanco de el nav */
+}
+
+nav li {
+    list-style: none; /* para que no sea una lista y eso */
+    padding: 0px 70px;
+    margin: 12px 3vb;
+    display: inline-block;
+    justify-content: center;
+    background-color: rgba(240, 248, 255, 0.089);
+    border-radius: 2vb;
+}
+
+nav:hover {
+    cursor: default; /* para que no salga para escribir encima de el que estes puesto */
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    cursor: default; /* Para que no salga el de clickar en los restantes */
+}
+
+    /* colores de el nav al pasar por encima por encima */
+#inicio:hover {
+    background-color: rgb(0, 134, 11);
+}
+
+#competicion:hover {
+    background-color: #A248A2;
+}
+
+#tipos_de_tetris:hover {
+    background-color: rgb(1, 228, 228);
+}
+
+#openers:hover {
+    background-color:#FDC70A;
+}
+
+#contactos:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+/* ------------ Contenido ------------ */
+#contenido {
+    color: white;
+}
+
+/* ------------ Footer ------------ */
+
+footer {
+    color: white;
+    font-family: oswald;
+    font-size: 1.5vh;
+    display: flex; /* Y por ultimo ponemos estos dos para centrar el footer */
+    justify-content: center; 
+}
+
+footer div {
+    width: 40vh;
+    height: 13.5vh;
+    background-color: rgba(0, 0, 0, 0.863);
+    border: 1px solid white;
+    border-radius: 4vh;
+    text-align: center; /* para centrar el texto en el footer */
+}
+a img { /*la imagen del git hub*/
+    background-color: white;
+    width: 4vb;
+}
