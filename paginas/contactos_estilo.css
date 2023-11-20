@@ -27,12 +27,13 @@ body {
 }
 
 /* ------------ NAV ------------ */
-nav {
+nav, a {
     display: flex; /* Volvemos a hacer lo de arriba para centrar la barra de navegacion */
     justify-content: center; 
     font-family: oswald;
     font-size: 1.5vb;
-    color: white;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 ul {
