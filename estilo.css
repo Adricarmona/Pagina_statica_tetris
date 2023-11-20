@@ -148,6 +148,7 @@ hr {
 #tspin img {
     border: 1px solid white;
     transform: rotate(-2deg);
+    box-shadow: 0px 0px 10px white;
 }
     /*  contenido de jugadas del tetris */
 #tetris_video {
@@ -157,8 +158,10 @@ hr {
 #tetris_video video {
     width: 60vh;
     border: 1px solid white;
+    box-shadow: 0px 0px 10px white;
     transform: rotate(2deg);
 }
+
 /*  contenido del allClear */
 #All_clear {
     padding: 2vh 5vh;
@@ -167,6 +170,7 @@ hr {
 #All_clear img {
     width: 60vh;
     border: 1px solid white;
+    box-shadow: 0px 0px 10px white;
     transform: rotate(-2deg);
 }
 

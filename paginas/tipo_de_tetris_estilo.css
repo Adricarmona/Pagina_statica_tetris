@@ -144,7 +144,8 @@ table { /* para la distancia de la tabla */
 table ,th{ /* para el borde de la tabla */
     border: rgb(255, 255, 255) ridge 0.5px;
     border-collapse: collapse;
-    background-color: rgba(43, 43, 43, 0.719);s
+    background-color: rgba(43, 43, 43, 0.719);
+    box-shadow: 0px 0px 10px white inset;
 }
 
 td {

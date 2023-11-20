@@ -148,6 +148,17 @@ hr {
     width: 60vh;
     transform: rotate(2deg);
     border: 1px solid white;
+    box-shadow: 0px 0px 10px white;
+}
+
+#video_tetris {
+    padding: 2vh 5vh;
+}
+
+#video_tetris iframe{
+    transform: rotate(-2deg);
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px white;
 }
 
 /* ------------ Footer ------------ */
