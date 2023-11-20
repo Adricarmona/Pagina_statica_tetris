@@ -31,7 +31,7 @@ nav {
     display: flex; /* Volvemos a hacer lo de arriba para centrar la barra de navegacion */
     justify-content: center; 
     font-family: oswald;
-    font-size: 2vb;
+    font-size: 1.5vb;
     color: white;
 }
 
@@ -48,9 +48,9 @@ ul {
 
 nav li {
     list-style: none; /* para que no sea una lista y eso */
-    padding: 0px 70px;
-    margin: 12px 3vb;
-    display: inline-block;
+    padding: 0px 40px;
+    margin: 19px 1vb;
+    display: flex;
     justify-content: center;
     background-color: rgba(240, 248, 255, 0.089);
     border-radius: 2vb;
@@ -116,6 +116,7 @@ hr {
 
 #tspin img {
     border: 1px solid white;
+    transform: rotate(-2deg);
 }
     /*  contenido de jugadas del tetris */
 #tetris_video {
@@ -125,6 +126,21 @@ hr {
 #tetris_video video {
     width: 60vh;
     border: 1px solid white;
+    transform: rotate(2deg);
+}
+/*  contenido del allClear */
+#All_clear {
+    padding: 2vh 5vh;
+}
+
+#All_clear img {
+    width: 60vh;
+    border: 1px solid white;
+    transform: rotate(-2deg);
+}
+
+#All_clear a{
+    color: white;
 }
 
 /* ------------ Footer ------------ */

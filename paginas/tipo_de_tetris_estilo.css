@@ -31,7 +31,7 @@ nav {
     display: flex; /* Volvemos a hacer lo de arriba para centrar la barra de navegacion */
     justify-content: center; 
     font-family: oswald;
-    font-size: 2vb;
+    font-size: 1.5vb;
     color: white;
 }
 
@@ -40,16 +40,17 @@ ul {
     width: 90vh;
     height: 9.5vh;
     border-radius: 60px;
-    display: flex; /* Y otra vez hacemos lo de arriba para centrarlo pero en el propio nav */
-    justify-content: center; 
     border: 1px solid white; /* Para el borde blanco de el nav */
+    display: flex; 
+    justify-content: center; /* Y otra vez hacemos lo de arriba para centrarlo pero en el propio nav */
+    
 }
 
 nav li {
     list-style: none; /* para que no sea una lista y eso */
-    padding: 0px 70px;
-    margin: 12px 3vb;
-    display: inline-block;
+    padding: 0px 40px;
+    margin: 19px 1vb;
+    display: flex;
     justify-content: center;
     background-color: rgba(240, 248, 255, 0.089);
     border-radius: 2vb;
@@ -66,29 +67,65 @@ li a {
 }
 
     /* colores de el nav al pasar por encima por encima */
-#inicio:hover {
-    background-color: rgb(0, 134, 11);
-}
+    #inicio:hover {
+        background-color: rgb(0, 134, 11);
+    }
 
-#competicion:hover {
-    background-color: #A248A2;
-}
+    #competicion:hover {
+        background-color: #A248A2;
+    }
 
-#tipos_de_tetris:hover {
-    background-color: rgb(1, 228, 228);
-}
+    #tipos_de_tetris:hover {
+        background-color: rgb(1, 228, 228);
+    }
 
-#openers:hover {
-    background-color:#FDC70A;
-}
+    #openers:hover {
+        background-color:#FDC70A;
+    }
 
-#contactos:hover {
-    background-color: rgb(255, 0, 0);
-}
+    #contactos:hover {
+        background-color: rgb(255, 0, 0);
+    }
 
 /* ------------ Contenido ------------ */
+#contenidos { /* este apartado esta para centrar el rectangulo de contenidos*/
+    display: flex; /* Centro todos los contenidos con estos dos*/
+    justify-content: center; 
+    margin-bottom: 2vh;
+}
+
 #contenido {
     color: white;
+    width: 95vh;
+    background-color: rgba(0, 0, 0, 0.863);
+    border: 1px solid white;
+    border-radius: 4vh;
+    text-align: center;  
+    font-size: 2vh; 
+}
+
+/* La configuracion de la tabla */
+table { /* para la distancia de la tabla */
+    margin-left: 17%;
+    margin-bottom: 40px;
+}
+
+table ,th{ /* para el borde de la tabla */
+    border: rgb(255, 255, 255) ridge 0.5px;
+    border-collapse: collapse;
+    background-color: rgba(43, 43, 43, 0.719);s
+}
+
+td {
+    padding: 0px 15px;
+}
+
+td a {
+    color: #ffffff;
+}
+
+td a:hover {
+    color: #7c367c;
 }
 
 /* ------------ Footer ------------ */
