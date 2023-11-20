@@ -64,6 +64,36 @@ li a {
     text-decoration: none;
     cursor: default; /* Para que no salga el de clickar en los restantes */
 }
+    /*  El boton de subir arriba    */
+    #boton {
+        color: rgba(255, 255, 255, 0);
+        position: fixed;
+        bottom: 70px;
+        right: 100px;
+        transform: rotate(180deg);
+    }
+
+    #boton img {
+        background-color: transparent;
+        width: 8vh;
+    }
+    
+    /* Para a animacion del boton que sube arriba */
+    #boton img:hover {
+        animation: animacion_t 2s;
+    }
+
+    @keyframes animacion_t {
+        0% {
+            transform: rotate(0deg);
+        }
+        50% {
+            transform: rotate(360deg);
+        }
+        100% {
+            transform: rotate(720deg);
+        }
+    }
 
     /* colores de el nav al pasar por encima por encima */
 #inicio:hover {

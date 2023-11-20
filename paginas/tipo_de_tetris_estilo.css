@@ -32,10 +32,11 @@ nav {
     justify-content: center; 
     font-family: oswald;
     font-size: 1.5vb;
-    color: white;
+    
 }
 
 ul {
+    color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.863);
     width: 90vh;
     height: 9.5vh;
@@ -65,6 +66,36 @@ li a {
     text-decoration: none;
     cursor: default; /* Para que no salga el de clickar en los restantes */
 }
+
+    /*  El boton de subir arriba    */
+    #boton {
+        position: fixed;
+        bottom: 70px;
+        right: 100px;
+        transform: rotate(180deg);
+    }
+
+    #boton img {
+        background-color: transparent;
+        width: 8vh;
+    }
+
+    /* Para a animacion del boton que sube arriba */
+    #boton img:hover {
+        animation: animacion_t 2s;
+    }
+
+    @keyframes animacion_t {
+        0% {
+            transform: rotate(0deg);
+        }
+        50% {
+            transform: rotate(360deg);
+        }
+        100% {
+            transform: rotate(720deg);
+        }
+    }
 
     /* colores de el nav al pasar por encima por encima */
     #inicio:hover {
@@ -117,7 +148,7 @@ table ,th{ /* para el borde de la tabla */
 }
 
 td {
-    padding: 0px 15px;
+    padding: 0 15px;
 }
 
 td a {
