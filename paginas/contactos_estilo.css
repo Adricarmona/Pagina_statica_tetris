@@ -118,6 +118,33 @@ li a {
         background-color: rgb(255, 0, 0);
     }
 
+/* ------------ Contenido ------------ */
+#contenidos { /* este apartado esta para centrar el rectangulo de contenidos*/
+    display: flex; /* Centro todos los contenidos con estos dos*/
+    justify-content: center; 
+    margin-bottom: 2vh;
+}
+
+#contenido {
+    color: white;
+    width: 95vh;
+    background-color: rgba(0, 0, 0, 0.863);
+    border: 1px solid white;
+    border-radius: 4vh;
+    text-align: center;  
+    font-size: 2vh; 
+}
+
+hr {
+    margin: 0 8vh;
+    color: rgba(255, 255, 255, 0.635);
+}
+
+form {
+    color: white;
+    padding: 2vh 7vh;
+}
+
 /* ------------ Footer ------------ */
 
 footer {
@@ -138,5 +165,9 @@ footer div {
 }
 a img { /*la imagen del git hub*/
     background-color: white;
-    width: 4vb;
+    width: 4.1vb;
+}
+
+footer img:hover {
+    background: radial-gradient(circle, rgba(0,247,255,1) 25%, rgba(57,0,255,1) 77%); 
 }

@@ -180,5 +180,9 @@ footer div {
 }
 a img { /*la imagen del git hub*/
     background-color: white;
-    width: 4vb;
+    width: 4.1vb;
+}
+
+footer img:hover {
+    background: radial-gradient(circle, rgba(0,247,255,1) 25%, rgba(57,0,255,1) 77%); 
 }
