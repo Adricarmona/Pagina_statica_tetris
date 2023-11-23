@@ -36,7 +36,7 @@ nav, a {
     text-decoration: none;
 }
 
-ul {
+nav ul {
     background-color: rgba(0, 0, 0, 0.863);
     width: 90vh;
     height: 9.5vh;
@@ -48,8 +48,8 @@ ul {
 
 nav li {
     list-style: none; /* para que no sea una lista y eso */
-    padding: 0px 70px;
-    margin: 12px 3vb;
+    padding: 0px 40px;
+    margin: 19px 1vb;
     display: inline-block;
     justify-content: center;
     background-color: rgba(240, 248, 255, 0.089);
@@ -60,7 +60,7 @@ nav:hover {
     cursor: default; /* para que no salga para escribir encima de el que estes puesto */
 }
 
-li a {
+nav li a {
     color: white;
     text-decoration: none;
     cursor: default; /* Para que no salga el de clickar en los restantes */
@@ -118,9 +118,45 @@ li a {
 }
 
 /* ------------ Contenido ------------ */
+#contenidos { /* este apartado esta para centrar el rectangulo de contenidos*/
+    display: flex; /* Centro todos los contenidos con estos dos*/
+    justify-content: center; 
+    margin-bottom: 2vh;
+}
+
 #contenido {
     color: white;
+    width: 85vh;
+    background-color: rgba(0, 0, 0, 0.863);
+    border: 1px solid white;
+    border-radius: 4vh;
+    text-align: center;  
+    font-size: 2vh; 
+    padding: 5vh 5vh;
 }
+
+ol { /* Lista desordenada */
+    padding-left: 50%;
+    text-align: left;
+}
+
+#cuadrado { /* El cuadrado de la foto */
+    width: 10vh;
+    border: rgb(255, 255, 255) ridge 0.5px;
+    box-shadow: 0px 0px 10px white;
+    animation: cuadrado 60s;
+}
+    @keyframes cuadrado { /* La animacion del cuadrado */
+        0% {
+            transform: rotate(0deg);
+        }
+        50% {
+            transform: rotate(360deg);
+        }
+        100% {
+            transform: rotate(720deg);
+        }
+    }
 
 /* ------------ Footer ------------ */
 
