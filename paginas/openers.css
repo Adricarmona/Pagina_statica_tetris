@@ -135,11 +135,6 @@ nav li a {
     padding: 5vh 5vh;
 }
 
-ol { /* Lista desordenada */
-    padding-left: 50%;
-    text-align: left;
-}
-
 #cuadrado { /* El cuadrado de la foto */
     width: 10vh;
     border: rgb(255, 255, 255) ridge 0.5px;
@@ -158,6 +153,58 @@ ol { /* Lista desordenada */
         }
     }
 
+
+ol { /* Lista desordenada */
+    padding-left: 50%;
+    text-align: left;
+}
+
+#imagenes {
+    display: grid; /* para el grid */
+    gap: 1.6vh;
+}
+
+#uno {
+    grid-column-start: 1; /*la columna del grid */
+    grid-column-end: 2;
+    grid-row-start: 1; /* la linea del grid */
+    grid-row-end: 2;
+}
+
+#dos {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#tres {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#cuatro {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#cinco {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#seis {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
 /* ------------ Footer ------------ */
 
 footer {
