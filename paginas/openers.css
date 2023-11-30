@@ -26,6 +26,52 @@ body {
     border: 1px solid white; /* Para el borde blanco de la foto */
 }
 
+@media only screen and (max-width: 1024px) {
+    #foto_header img {
+        width: 78vh;
+        height: 22vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #foto_header img {
+        width: 45vh;
+        height: 16vh;
+    }
+}
+
+@media only screen and (max-width: 1024px) { /* de pc a tablet */
+    nav, a {
+        font-size: 1.3vb;
+    }
+
+    ul {
+        width: 78vh;
+        height: 9.5vh;
+    }
+
+    nav li {
+        padding: 7px 30px;
+        margin: 14px 1vb;
+    }
+}
+
+@media only screen and (max-width: 768px) { /* de tablet a movil */
+    nav, a {
+        font-size: 0.9vb;
+    }
+
+    ul {
+        width: 45vh;
+        height: 8vh;
+    }
+
+    nav li {
+        padding: 5px 15px;
+        margin: 14px 0.5vb;
+    }
+}
+
 /* ------------ NAV ------------ */
 nav, a {
     display: flex; /* Volvemos a hacer lo de arriba para centrar la barra de navegacion */
@@ -133,6 +179,20 @@ nav li a {
     text-align: center;  
     font-size: 2vh; 
     padding: 5vh 5vh;
+}
+
+@media only screen and (max-width: 1024px) { /* de pc a tablet */
+    #contenido {
+        width: 75vh;
+        font-size: 2vh; 
+    }
+}
+
+@media only screen and (max-width: 768px) { /* de tablet a movil */
+    #contenido {
+        width: 45vh;
+        font-size: 1.5vh; 
+    }
 }
 
 #cuadrado { /* El cuadrado de la foto */
