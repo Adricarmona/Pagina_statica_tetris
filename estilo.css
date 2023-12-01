@@ -86,11 +86,13 @@ li a {
         bottom: 70px;
         right: 100px;
         transform: rotate(180deg);
+        z-index: 20;
     }
     
     #boton img {
         background-color: transparent;
         width: 8vh;
+        
     }
 
     /* Para a animacion del boton que sube arriba */
@@ -137,12 +139,12 @@ li a {
     }
 
     ul {
-        width: 78vh;
+        width: 72vh;
         height: 9.5vh;
     }
 
     nav li {
-        padding: 7px 30px;
+        padding: 7px 28px;
         margin: 14px 1vb;
     }
 }
@@ -234,6 +236,34 @@ hr {
 
 #All_clear a{
     color: white;
+}
+
+@media only screen and (max-width: 1024px) { /* de pc a tablet */
+    #tspin img {
+        width: 20vh;
+    }
+
+    #tetris_video video {
+        width: 40vh;
+    }
+
+    #All_clear img {
+        width: 40vh;
+    }
+}
+
+@media only screen and (max-width: 768px) { /* de tablet a movil */
+    #tspin img {
+        width: 15vh;
+    }
+
+    #tetris_video video {
+        width: 25vh;
+    }
+
+    #All_clear img {
+        width: 25vh;
+    }
 }
 
 /* ------------ Footer ------------ */

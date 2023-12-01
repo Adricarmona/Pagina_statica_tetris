@@ -118,6 +118,7 @@ nav li a {
         bottom: 70px;
         right: 100px;
         transform: rotate(180deg);
+        z-index: 20;
     }
 
     #boton img {
