@@ -138,12 +138,12 @@ li a {
         }
     
         ul {
-            width: 78vh;
+            width: 72vh;
             height: 9.5vh;
         }
     
         nav li {
-            padding: 7px 30px;
+            padding: 7px 28px;
             margin: 14px 1vb;
         }
     }
@@ -162,7 +162,34 @@ li a {
             padding: 5px 15px;
             margin: 14px 0.5vb;
         }
+    
+        #boton {
+            bottom: 40px;
+            right: 35px;
+        }
     }
+    
+    @media only screen and (max-width: 370px) { /* de movil a movilmaschico */
+        nav, a {
+            font-size: 0.9vb;
+        }
+    
+        ul {
+            width: 45vh;
+            height: 8vh;
+        }
+    
+        nav li {
+            padding: 5px 12px;
+            margin: 14px 0.5vb;
+        }
+    
+        #boton {
+            bottom: 25px;
+            right: 20px;
+        }
+    }
+    
 
 /* ------------ Contenido ------------ */
 #contenidos { /* este apartado esta para centrar el rectangulo de contenidos*/
@@ -227,6 +254,39 @@ hr {
     transform: rotate(2deg);
     border: 1px solid white;
     box-shadow: 0px 0px 10px white;
+}
+
+@media only screen and (max-width: 1024px) { /* de pc a tablet */
+    #campeonato img {
+        width: 40vh;
+    }
+
+    #campeonato iframe {
+        width: 40vh;
+        height: 16vh;
+    }
+
+    #video_tetris iframe {
+        width: 40vh;
+        height: 22vh;
+    }
+}
+
+@media only screen and (max-width: 768px) { /* de tablet a movil */
+    #campeonato img {
+        width: 25vh;
+    }
+
+    #campeonato iframe {
+        width: 28vh;
+        height: 16vh;
+    }
+
+    #video_tetris iframe {
+        width: 28vh;
+        height: 16vh;
+    }
+
 }
 
 /* ------------ Footer ------------ */

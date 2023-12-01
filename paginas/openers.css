@@ -164,6 +164,87 @@ nav li a {
     background-color: rgb(255, 0, 0);
 }
 
+
+@media only screen and (max-width: 1024px) { /* de pc a tablet */
+    nav, a {
+        font-size: 1.3vb;
+    }
+
+    ul {
+        width: 72vh;
+        height: 9.5vh;
+    }
+
+    nav li {
+        padding: 7px 28px;
+        margin: 14px 1vb;
+    }
+}
+
+@media only screen and (max-width: 768px) { /* de tablet a movil */
+    nav, a {
+        font-size: 0.9vb;
+    }
+
+    ul {
+        width: 45vh;
+        height: 8vh;
+    }
+
+    nav li {
+        padding: 5px 15px;
+        margin: 14px 0.5vb;
+    }
+
+    #boton {
+        bottom: 40px;
+        right: 35px;
+    }
+}
+
+@media only screen and (max-width: 370px) { /* de movil a movilmaschico */
+    nav, a {
+        font-size: 0.9vb;
+    }
+
+    ul {
+        width: 45vh;
+        height: 8vh;
+    }
+
+    nav li {
+        padding: 5px 12px;
+        margin: 14px 0.5vb;
+    }
+
+    #boton {
+        bottom: 25px;
+        right: 20px;
+    }
+}
+
+@media only screen and (max-width: 370px) { /* de movil a movilmaschico */
+    nav, a {
+        font-size: 0.9vb;
+    }
+
+    ul {
+        width: 45vh;
+        height: 8vh;
+    }
+
+    nav li {
+        padding: 5px 12px;
+        margin: 14px 0.5vb;
+    }
+
+    #boton {
+        bottom: 25px;
+        right: 20px;
+    }
+}
+
+
 /* ------------ Contenido ------------ */
 #contenidos { /* este apartado esta para centrar el rectangulo de contenidos*/
     display: flex; /* Centro todos los contenidos con estos dos*/
@@ -184,14 +265,14 @@ nav li a {
 
 @media only screen and (max-width: 1024px) { /* de pc a tablet */
     #contenido {
-        width: 75vh;
+        width: 55vh;
         font-size: 2vh; 
     }
 }
 
 @media only screen and (max-width: 768px) { /* de tablet a movil */
     #contenido {
-        width: 45vh;
+        width: 34vh;
         font-size: 1.5vh; 
     }
 }
@@ -265,6 +346,40 @@ ol { /* Lista desordenada */
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
+}
+
+div ul {
+    width: 80vh;
+}
+
+@media only screen and (max-width: 1024px) { /* de pc a tablet */
+    #imagenes img {
+        width: 18vh;
+    }
+
+    div ul {
+        width: 50vh;
+    }
+}
+
+@media only screen and (max-width: 768px) { /* de tablet a movil */
+    #imagenes img {
+        width: 11vh;
+    }
+
+    div ul {
+        width: 30vh;
+    }
+}
+
+@media only screen and (max-width: 545px) { /* de movil a minimovil */
+    #imagenes img {
+        width: 11vh;
+    }
+
+    div ul {
+        width: 30vh;
+    }
 }
 /* ------------ Footer ------------ */
 

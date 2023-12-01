@@ -92,7 +92,6 @@ li a {
     #boton img {
         background-color: transparent;
         width: 8vh;
-        
     }
 
     /* Para a animacion del boton que sube arriba */
@@ -162,6 +161,32 @@ li a {
     nav li {
         padding: 5px 15px;
         margin: 14px 0.5vb;
+    }
+
+    #boton {
+        bottom: 40px;
+        right: 35px;
+    }
+}
+
+@media only screen and (max-width: 370px) { /* de movil a movilmaschico */
+    nav, a {
+        font-size: 0.9vb;
+    }
+
+    ul {
+        width: 45vh;
+        height: 8vh;
+    }
+
+    nav li {
+        padding: 5px 12px;
+        margin: 14px 0.5vb;
+    }
+
+    #boton {
+        bottom: 25px;
+        right: 20px;
     }
 }
 
