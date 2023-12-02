@@ -55,8 +55,7 @@ ul {
     height: 9.5vh;
     border-radius: 60px;
     border: 1px solid white; /* Para el borde blanco de el nav */
-    display: flex; 
-    justify-content: center; /* Y otra vez hacemos lo de arriba para centrarlo pero en el propio nav */
+    display: flex;/* Y otra vez hacemos lo de arriba para centrarlo pero en el propio nav */
 }
 
 nav li {
