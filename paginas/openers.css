@@ -40,37 +40,6 @@ body {
     }
 }
 
-@media only screen and (max-width: 1024px) { /* de pc a tablet */
-    nav, a {
-        font-size: 1.3vb;
-    }
-
-    ul {
-        width: 78vh;
-        height: 9.5vh;
-    }
-
-    nav li {
-        padding: 7px 30px;
-        margin: 14px 1vb;
-    }
-}
-
-@media only screen and (max-width: 768px) { /* de tablet a movil */
-    nav, a {
-        font-size: 0.9vb;
-    }
-
-    ul {
-        width: 45vh;
-        height: 8vh;
-    }
-
-    nav li {
-        padding: 5px 15px;
-        margin: 14px 0.5vb;
-    }
-}
 
 /* ------------ NAV ------------ */
 nav, a {
@@ -170,7 +139,7 @@ nav li a {
         font-size: 1.3vb;
     }
 
-    ul {
+    nav ul {
         width: 72vh;
         height: 9.5vh;
     }
@@ -186,7 +155,7 @@ nav li a {
         font-size: 0.9vb;
     }
 
-    ul {
+    nav ul {
         width: 45vh;
         height: 8vh;
     }
@@ -222,28 +191,6 @@ nav li a {
         right: 20px;
     }
 }
-
-@media only screen and (max-width: 370px) { /* de movil a movilmaschico */
-    nav, a {
-        font-size: 0.9vb;
-    }
-
-    ul {
-        width: 45vh;
-        height: 8vh;
-    }
-
-    nav li {
-        padding: 5px 12px;
-        margin: 14px 0.5vb;
-    }
-
-    #boton {
-        bottom: 25px;
-        right: 20px;
-    }
-}
-
 
 /* ------------ Contenido ------------ */
 #contenidos { /* este apartado esta para centrar el rectangulo de contenidos*/
